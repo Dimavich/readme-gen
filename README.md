@@ -24,7 +24,7 @@ To test this script you may install Jest and write your own tests.
 - My Email: dmitriy.babich0@gmail.com
 
 ## Demo
-- link to video Demo
+- link to video
 [Demo](https://drive.google.com/file/d/1CZCzAB0OyOvKPQCaFAP-jtFT6xZioUn2/view?usp=sharing)
 
 
