@@ -29,4 +29,4 @@ To test this script you may install Jest and write your own tests.
 
 
 ## License <a name="license"></a>
-The license information on the mit license can be found here: [License Information](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/licensing-a-repository)
+This is licensed under the mit license. More License information can be found here [License Information](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/licensing-a-repository)
