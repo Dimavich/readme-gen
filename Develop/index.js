@@ -84,7 +84,7 @@ ${answers.test}
 ## Questions <a name="questions"></a>
 **If You have any questions you may contact me below:**
 - [Git Hub](https://github.com/${answers.git})
-- **My Email:**${answers.email}
+- My Email: ${answers.email}
 
 ## License <a name="license"></a>
 The license information on the ${answers.license} license can be found here: [License Information](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/licensing-a-repository)`,

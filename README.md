@@ -21,10 +21,10 @@ To test this script you may install Jest and write your own tests.
 ## Questions <a name="questions"></a>
 **If You have any questions you may contact me below:**
 - [Git Hub](https://github.com/Dimavich)
-- **My Email:**dmitriy.babich0@gmail.com
+- My Email: dmitriy.babich0@gmail.com
 
 ## Demo
-- link to video Demo (right click on the video file and click preview)
+- link to video Demo
 [Demo](https://drive.google.com/file/d/1CZCzAB0OyOvKPQCaFAP-jtFT6xZioUn2/view?usp=sharing)
 
 
