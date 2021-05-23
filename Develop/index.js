@@ -23,17 +23,17 @@ const questions = () => {
             message: 'Title: ',
         },
         {
-            type: 'editor',
+            type: 'input',
             name: 'description',
             message: 'Description: ',
         },
         {
-            type: 'editor',
+            type: 'intput',
             name: 'installation',
             message: 'Installation Instructions: ',
         },
         {
-            type: 'editor',
+            type: 'input',
             name: 'usage',
             message: 'How to use: ',
         },
@@ -61,34 +61,33 @@ const questions = () => {
     ])
     .then((answers) => {
         fs.writeFile('ReadMe.md',
-         `# ${answers.title}
-         [![Generic badge](https://img.shields.io/badge/License}-${answers.license}-green.svg)](https://shields.io)
-         ## Description
-         
-         >${answers.description}
-         
-         ## Table of Content
-         1. Description
-         2. Table of Content
-         3. Installation
-         4. Usage
-         5. Test Instructions
-         6. Questions
-         7. Licencse
-         
-         ## installation Instructions 
-         ${answers.installation}
-         ## Usage
-         ${answers.usage}
-         ## Test Instructions
-         ${answers.test}
-         ## Questions 
-          **If You have any questions you may contact me below:**
-         - [Git Hub](https://github.com/${answers.git})
-         - **My Email:**${answers.email}
-         
-         ## License
-         The license information on the ${answers.licese} license can be found here: [License Information](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/licensing-a-repository)`,
+        `# ${answers.title}
+[![Generic badge](https://img.shields.io/badge/License-${answers.license}-green.svg)](https://shields.io)
+## Description <a name="description"></a>
+
+${answers.description}
+
+## Table of Content
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Test Instructions](#test)
+5. [Questions](#questions)
+6. [Licencse](#license)
+
+## installation Instructions <a name="installation"></a>
+${answers.installation}
+## Usage <a name="usage"></a>
+${answers.usage}
+## Test Instructions <a name="test"></a>
+${answers.test}
+## Questions <a name="questions"></a>
+**If You have any questions you may contact me below:**
+- [Git Hub](https://github.com/${answers.git})
+- **My Email:**${answers.email}
+
+## License <a name="license"></a>
+The license information on the ${answers.license} license can be found here: [License Information](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/licensing-a-repository)`,
          (err) =>
          err ? console.error(err) : console.log('Success!'));
     })
