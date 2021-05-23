@@ -87,7 +87,7 @@ ${answers.test}
 - My Email: ${answers.email}
 
 ## License <a name="license"></a>
-The license information on the ${answers.license} license can be found here: [License Information](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/licensing-a-repository)`,
+This is licensed under the ${answers.license} License. More license information can be found here: [License Information](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/licensing-a-repository)`,
          (err) =>
          err ? console.error(err) : console.log('Success!'));
     })
