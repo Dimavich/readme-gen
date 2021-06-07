@@ -1,20 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require('fs');
 
-
-// TODO: Include packages needed for this application
-
-// TODO: Create an array of questions for user input
-// things to include 
-// 1. Title 
-// 2. Description
-// 3. Table of Contents
-// 4. Installation
-// 5. Useage
-// 6. Licence (selection)
-// 7. Cntributing
-// 8. Tests
-// 9. Questions
 const questions = () => {
     return inquirer.prompt([
         {
